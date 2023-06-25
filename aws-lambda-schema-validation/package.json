@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-schema-validation",
+  "version": "1.0.0",
+  "description": "aws lambda create-function --function-name ProcessKinesisRecords \\ --zip-file fileb://function.zip --handler index.handler --runtime nodejs18.x \\ --role arn:aws:iam::086674039837:role/lambda-kinesis-role --region eu-west-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-glue": "^3.357.0",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
+  }
+}

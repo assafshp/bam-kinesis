@@ -1,0 +1,5 @@
+{
+    "StreamName": "lambda-stream",
+    "Data": "aGVlbG8gYXNzYWY=",
+    "PartitionKey": "1"
+}
